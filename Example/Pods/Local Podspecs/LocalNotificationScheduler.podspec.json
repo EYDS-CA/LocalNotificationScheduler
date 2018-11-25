@@ -1,0 +1,22 @@
+{
+  "name": "LocalNotificationScheduler",
+  "version": "0.1.0",
+  "summary": "A short description of LocalNotificationScheduler.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/harishchopra86/LocalNotificationScheduler",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "harishchopra86": "harish@freshworks.io"
+  },
+  "source": {
+    "git": "https://github.com/harishchopra86/LocalNotificationScheduler.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LocalNotificationScheduler/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module LocalNotificationScheduler {
+  umbrella header "LocalNotificationScheduler-umbrella.h"
+
+  export *
+  module * { export * }
+}

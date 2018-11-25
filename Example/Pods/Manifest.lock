@@ -1,0 +1,16 @@
+PODS:
+  - LocalNotificationScheduler (0.1.0)
+
+DEPENDENCIES:
+  - LocalNotificationScheduler (from `../`)
+
+EXTERNAL SOURCES:
+  LocalNotificationScheduler:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LocalNotificationScheduler: a01dbc48d0896687d8c91fd84ad42428479f69c0
+
+PODFILE CHECKSUM: 0beecbcf0a9ff8cf8684a277ad5b1a392013149a
+
+COCOAPODS: 1.5.3
