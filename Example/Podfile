@@ -1,0 +1,6 @@
+use_frameworks!
+target 'LocalNotificationScheduler_Tests' do
+  pod 'LocalNotificationScheduler', :path => '../'
+  
+  
+end
