@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LocalNotificationScheduler'
-  s.version          = '0.1.0'
+  s.version          = '1.0'
   s.summary          = 'LocalNotificationScheduler can be used to schedule local notification in iOS in a quick and easy way.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ LocalNotificationScheduler is an easier method to schedule local notifications i
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'harishchopra86' => 'harish@freshworks.io' }
-  s.source           = { :git => 'https://github.com/FreshworksStudio/LocalNotificationScheduler.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/FreshworksStudio/LocalNotificationScheduler.git', :tag => 1.0 }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
