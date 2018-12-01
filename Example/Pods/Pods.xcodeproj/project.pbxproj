@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3697FC77283BD58AB5DED8D7FBAEB500 /* LocalNotificationScheduler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA16F676B5B5923D084C930526B54F9 /* LocalNotificationScheduler-dummy.m */; };
 		55BAB2FA60F79B35983DDC576582329B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6BB60765B88F97BFB2E1557E1218600A /* LocalNotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C79BED1833FCDC0CD4F8333CE641151 /* LocalNotificationScheduler.swift */; };
 		6E22AC98C65D760788FDB197FF0DBA08 /* Pods-LocalNotificationScheduler_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EE21CB612FDA2AD5F8DEB09A677A1A /* Pods-LocalNotificationScheduler_Tests-dummy.m */; };
+		70944AC9C47F4A2EA6AFB7589FBC088A /* LocalNotificationScheduler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C3795E5143488DECC379E88B3A4494 /* LocalNotificationScheduler-dummy.m */; };
 		913A1D95D9E19EC42622C1AF32FBB3AD /* Pods-LocalNotificationScheduler_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6329FCFDC1E1726B849C9C0E8AE1E54A /* Pods-LocalNotificationScheduler_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCB4CBA1E9FCDDD1E3660F224E25EBA5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53CB030874C3F67CECC4A675B3D9FC /* ReplaceMe.swift */; };
-		CF5A00A43B765DA6933AD5F7150AF27E /* LocalNotificationScheduler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A8EB18287BB3E0995C395B29488F70E /* LocalNotificationScheduler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF5A00A43B765DA6933AD5F7150AF27E /* LocalNotificationScheduler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0129E4833F6E377A67980139E69619E /* LocalNotificationScheduler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2F798A88298989EB1A11E60C900B393 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,30 +27,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		019DA6A0BE67D22645AEEA66CFFFC3E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0C79BED1833FCDC0CD4F8333CE641151 /* LocalNotificationScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalNotificationScheduler.swift; path = LocalNotificationScheduler/Classes/LocalNotificationScheduler.swift; sourceTree = "<group>"; };
 		0DE1794E0EFC555B31DB196CFFCA27EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14FD48AFACA5D4C1DD4FDBCEA49F1058 /* LocalNotificationScheduler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocalNotificationScheduler-prefix.pch"; sourceTree = "<group>"; };
+		21C3795E5143488DECC379E88B3A4494 /* LocalNotificationScheduler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LocalNotificationScheduler-dummy.m"; sourceTree = "<group>"; };
 		28556F7FD1003A6F7C2A2A7E8C3BF886 /* Pods-LocalNotificationScheduler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalNotificationScheduler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		31C4AF3A817F99014D73258287734A18 /* LocalNotificationScheduler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocalNotificationScheduler-prefix.pch"; sourceTree = "<group>"; };
+		2D60C03844D8101DA3DDC763918F454C /* LocalNotificationScheduler.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocalNotificationScheduler.xcconfig; sourceTree = "<group>"; };
+		308B06E74078296368D2EF68739C801A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		39497E7DEB23A3661057043CAA3C0554 /* Pods-LocalNotificationScheduler_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocalNotificationScheduler_Tests.modulemap"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5A95473807F3795DF265305C50CF7880 /* Pods-LocalNotificationScheduler_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocalNotificationScheduler_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		62EE21CB612FDA2AD5F8DEB09A677A1A /* Pods-LocalNotificationScheduler_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocalNotificationScheduler_Tests-dummy.m"; sourceTree = "<group>"; };
 		6329FCFDC1E1726B849C9C0E8AE1E54A /* Pods-LocalNotificationScheduler_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocalNotificationScheduler_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7A8EB18287BB3E0995C395B29488F70E /* LocalNotificationScheduler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocalNotificationScheduler-umbrella.h"; sourceTree = "<group>"; };
-		80488851EC640A00212EEDEE772141C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		69B6B3BBBC515AE2F2E6C67967D3D7D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		821285B5761C4D7EC638F31BFDEE753C /* Pods-LocalNotificationScheduler_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocalNotificationScheduler_Tests-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB4B2AB05939B6F29E041EF3637DC312 /* Pods_LocalNotificationScheduler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocalNotificationScheduler_Tests.framework; path = "Pods-LocalNotificationScheduler_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD7346DCD568B4DB3BBF26EB43FA2DB1 /* LocalNotificationScheduler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LocalNotificationScheduler.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B57430AF884EE53F2799908C294693E5 /* LocalNotificationScheduler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LocalNotificationScheduler.modulemap; sourceTree = "<group>"; };
-		BDF64FC5AAF6AA8A3FD30E02C39F7F37 /* LocalNotificationScheduler.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocalNotificationScheduler.xcconfig; sourceTree = "<group>"; };
-		CE53CB030874C3F67CECC4A675B3D9FC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = LocalNotificationScheduler/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		CFA16F676B5B5923D084C930526B54F9 /* LocalNotificationScheduler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LocalNotificationScheduler-dummy.m"; sourceTree = "<group>"; };
+		B67501752332A8F53677250800E7C575 /* LocalNotificationScheduler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LocalNotificationScheduler.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B862357DBC27D9CAAC9088A7BB0C1880 /* LocalNotificationScheduler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LocalNotificationScheduler.modulemap; sourceTree = "<group>"; };
 		D5750AB358B3E2B200BE31B2D11F35BD /* LocalNotificationScheduler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LocalNotificationScheduler.framework; path = LocalNotificationScheduler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0129E4833F6E377A67980139E69619E /* LocalNotificationScheduler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocalNotificationScheduler-umbrella.h"; sourceTree = "<group>"; };
+		E5B0D810E4F3DF361F49F597D66A5A15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		EF832EEB7B6DF3F6B4B3438DE6E5029D /* Pods-LocalNotificationScheduler_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocalNotificationScheduler_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		F53946BF0AF76D46442019BD940169E5 /* Pods-LocalNotificationScheduler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalNotificationScheduler_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FCF449AADAE77B9E09732ED639C6F75E /* Pods-LocalNotificationScheduler_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalNotificationScheduler_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FEA2B54E487BB6B760CAB130F48B54B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,10 +73,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		212B37A2E8BE212C60AB1417BD539F44 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				308B06E74078296368D2EF68739C801A /* LICENSE */,
+				B67501752332A8F53677250800E7C575 /* LocalNotificationScheduler.podspec */,
+				E5B0D810E4F3DF361F49F597D66A5A15 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3593C04205DCFD2540D2C6B196B11885 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69B6B3BBBC515AE2F2E6C67967D3D7D5 /* Info.plist */,
+				B862357DBC27D9CAAC9088A7BB0C1880 /* LocalNotificationScheduler.modulemap */,
+				2D60C03844D8101DA3DDC763918F454C /* LocalNotificationScheduler.xcconfig */,
+				21C3795E5143488DECC379E88B3A4494 /* LocalNotificationScheduler-dummy.m */,
+				14FD48AFACA5D4C1DD4FDBCEA49F1058 /* LocalNotificationScheduler-prefix.pch */,
+				E0129E4833F6E377A67980139E69619E /* LocalNotificationScheduler-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LocalNotificationScheduler";
+			sourceTree = "<group>";
+		};
 		5A2DFE7191F1B058E60E59557904021A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BCC559504076273F7AF620B5B625AE29 /* LocalNotificationScheduler */,
+				ADD40444151D967EDD580D6DA42BE0BE /* LocalNotificationScheduler */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -89,16 +113,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		66EF818DE1174006BBD0EDBA1C3A9BAB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				80488851EC640A00212EEDEE772141C3 /* LICENSE */,
-				AD7346DCD568B4DB3BBF26EB43FA2DB1 /* LocalNotificationScheduler.podspec */,
-				019DA6A0BE67D22645AEEA66CFFFC3E2 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +122,17 @@
 				E5C2C126A6952C5BD7AFC281437BF5FF /* Products */,
 				B2DCDAD6E315A983899D0BBE31377D28 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		ADD40444151D967EDD580D6DA42BE0BE /* LocalNotificationScheduler */ = {
+			isa = PBXGroup;
+			children = (
+				0C79BED1833FCDC0CD4F8333CE641151 /* LocalNotificationScheduler.swift */,
+				212B37A2E8BE212C60AB1417BD539F44 /* Pod */,
+				3593C04205DCFD2540D2C6B196B11885 /* Support Files */,
+			);
+			name = LocalNotificationScheduler;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B176F3C0B96E50BEA1A02AE7D92EC22E /* Pods-LocalNotificationScheduler_Tests */ = {
@@ -144,17 +169,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BCC559504076273F7AF620B5B625AE29 /* LocalNotificationScheduler */ = {
-			isa = PBXGroup;
-			children = (
-				CE53CB030874C3F67CECC4A675B3D9FC /* ReplaceMe.swift */,
-				66EF818DE1174006BBD0EDBA1C3A9BAB /* Pod */,
-				FD564525161E5DAF4BABD9CE5887BFF9 /* Support Files */,
-			);
-			name = LocalNotificationScheduler;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		E5C2C126A6952C5BD7AFC281437BF5FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,20 +176,6 @@
 				AB4B2AB05939B6F29E041EF3637DC312 /* Pods_LocalNotificationScheduler_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FD564525161E5DAF4BABD9CE5887BFF9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FEA2B54E487BB6B760CAB130F48B54B6 /* Info.plist */,
-				B57430AF884EE53F2799908C294693E5 /* LocalNotificationScheduler.modulemap */,
-				BDF64FC5AAF6AA8A3FD30E02C39F7F37 /* LocalNotificationScheduler.xcconfig */,
-				CFA16F676B5B5923D084C930526B54F9 /* LocalNotificationScheduler-dummy.m */,
-				31C4AF3A817F99014D73258287734A18 /* LocalNotificationScheduler-prefix.pch */,
-				7A8EB18287BB3E0995C395B29488F70E /* LocalNotificationScheduler-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LocalNotificationScheduler";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,7 +205,7 @@
 			buildConfigurationList = EF51925EF9BE504019A9E370841BD0B3 /* Build configuration list for PBXNativeTarget "LocalNotificationScheduler" */;
 			buildPhases = (
 				A91C48227E5C5C902492AFB49F4975AB /* Headers */,
-				43928D1D0E8EED1D3311793F89D96A50 /* Sources */,
+				AD51C480D01526D819CD6E5FF7F26080 /* Sources */,
 				62832F25468B7A3D5457FC4A67EA1F5E /* Frameworks */,
 				A0B1AA133EE541633C69932DCBEDA3DF /* Resources */,
 			);
@@ -282,20 +282,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		43928D1D0E8EED1D3311793F89D96A50 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3697FC77283BD58AB5DED8D7FBAEB500 /* LocalNotificationScheduler-dummy.m in Sources */,
-				BCB4CBA1E9FCDDD1E3660F224E25EBA5 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5253B799078D342A70E8DD20F668991D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6E22AC98C65D760788FDB197FF0DBA08 /* Pods-LocalNotificationScheduler_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD51C480D01526D819CD6E5FF7F26080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70944AC9C47F4A2EA6AFB7589FBC088A /* LocalNotificationScheduler-dummy.m in Sources */,
+				6BB60765B88F97BFB2E1557E1218600A /* LocalNotificationScheduler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,11 +311,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0FF4802ABF84647F33DF2FB1C95EC670 /* Release */ = {
+		3BA729661777738E2A54A962C57907F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F53946BF0AF76D46442019BD940169E5 /* Pods-LocalNotificationScheduler_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -327,7 +328,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-LocalNotificationScheduler_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LocalNotificationScheduler_Tests/Pods-LocalNotificationScheduler_Tests.modulemap";
@@ -347,10 +348,11 @@
 			};
 			name = Release;
 		};
-		19C4168488444B5673386335CC50EEF5 /* Release */ = {
+		77F24AB0F61CF09025FDAC619864422C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDF64FC5AAF6AA8A3FD30E02C39F7F37 /* LocalNotificationScheduler.xcconfig */;
+			baseConfigurationReference = 2D60C03844D8101DA3DDC763918F454C /* LocalNotificationScheduler.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -363,7 +365,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/LocalNotificationScheduler/LocalNotificationScheduler-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LocalNotificationScheduler/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/LocalNotificationScheduler/LocalNotificationScheduler.modulemap";
 				PRODUCT_MODULE_NAME = LocalNotificationScheduler;
@@ -381,10 +383,12 @@
 			};
 			name = Release;
 		};
-		50E44850B4E6292BB2F18ABF4F09E1F1 /* Debug */ = {
+		98BCC79861F8C0D15DCF3B8B9DB23072 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDF64FC5AAF6AA8A3FD30E02C39F7F37 /* LocalNotificationScheduler.xcconfig */;
+			baseConfigurationReference = 28556F7FD1003A6F7C2A2A7E8C3BF886 /* Pods-LocalNotificationScheduler_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -394,85 +398,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LocalNotificationScheduler/LocalNotificationScheduler-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LocalNotificationScheduler/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocalNotificationScheduler_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LocalNotificationScheduler/LocalNotificationScheduler.modulemap";
-				PRODUCT_MODULE_NAME = LocalNotificationScheduler;
-				PRODUCT_NAME = LocalNotificationScheduler;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocalNotificationScheduler_Tests/Pods-LocalNotificationScheduler_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+		C92782E717C52E3633C9A5F211E7987A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -525,7 +472,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -536,11 +483,11 @@
 			};
 			name = Debug;
 		};
-		F9C41CCA71BC057925F7986708BF45C9 /* Debug */ = {
+		E76F92D0A5CF4B59106C605247263AD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28556F7FD1003A6F7C2A2A7E8C3BF886 /* Pods-LocalNotificationScheduler_Tests.debug.xcconfig */;
+			baseConfigurationReference = 2D60C03844D8101DA3DDC763918F454C /* LocalNotificationScheduler.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -550,26 +497,83 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LocalNotificationScheduler_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/LocalNotificationScheduler/LocalNotificationScheduler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocalNotificationScheduler/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LocalNotificationScheduler_Tests/Pods-LocalNotificationScheduler_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/LocalNotificationScheduler/LocalNotificationScheduler.modulemap";
+				PRODUCT_MODULE_NAME = LocalNotificationScheduler;
+				PRODUCT_NAME = LocalNotificationScheduler;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		EA8C7AF90938697605468604B2A17B9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -577,8 +581,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
-				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+				C92782E717C52E3633C9A5F211E7987A /* Debug */,
+				EA8C7AF90938697605468604B2A17B9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -586,8 +590,8 @@
 		E1D4495ED45003CD6CFF38CC672493F1 /* Build configuration list for PBXNativeTarget "Pods-LocalNotificationScheduler_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F9C41CCA71BC057925F7986708BF45C9 /* Debug */,
-				0FF4802ABF84647F33DF2FB1C95EC670 /* Release */,
+				98BCC79861F8C0D15DCF3B8B9DB23072 /* Debug */,
+				3BA729661777738E2A54A962C57907F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -595,8 +599,8 @@
 		EF51925EF9BE504019A9E370841BD0B3 /* Build configuration list for PBXNativeTarget "LocalNotificationScheduler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50E44850B4E6292BB2F18ABF4F09E1F1 /* Debug */,
-				19C4168488444B5673386335CC50EEF5 /* Release */,
+				E76F92D0A5CF4B59106C605247263AD2 /* Debug */,
+				77F24AB0F61CF09025FDAC619864422C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

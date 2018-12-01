@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LocalNotificationScheduler'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LocalNotificationScheduler.'
+  s.summary          = 'LocalNotificationScheduler can be used to schedule local notification in iOS in a quick and easy way.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+LocalNotificationScheduler is an easier method to schedule local notifications in your project. It can schedule different types of local notifocations with one line of code.
                        DESC
 
-  s.homepage         = 'https://github.com/harishchopra86/LocalNotificationScheduler'
+  s.homepage         = 'https://github.com/FreshworksStudio/LocalNotificationScheduler.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'harishchopra86' => 'harish@freshworks.io' }
-  s.source           = { :git => 'https://github.com/harishchopra86/LocalNotificationScheduler.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/FreshworksStudio/LocalNotificationScheduler.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'LocalNotificationScheduler/Classes/**/*'
   

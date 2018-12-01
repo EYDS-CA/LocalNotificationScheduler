@@ -1,9 +1,9 @@
 {
   "name": "LocalNotificationScheduler",
   "version": "0.1.0",
-  "summary": "A short description of LocalNotificationScheduler.",
+  "summary": "LocalNotificationScheduler can be used to schedule local notification in iOS in a quick and easy way.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/harishchopra86/LocalNotificationScheduler",
+  "homepage": "https://github.com/FreshworksStudio/LocalNotificationScheduler.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "harishchopra86": "harish@freshworks.io"
   },
   "source": {
-    "git": "https://github.com/harishchopra86/LocalNotificationScheduler.git",
+    "git": "https://github.com/FreshworksStudio/LocalNotificationScheduler.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
   "source_files": "LocalNotificationScheduler/Classes/**/*"
 }

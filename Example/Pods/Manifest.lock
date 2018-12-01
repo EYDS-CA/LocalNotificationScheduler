@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LocalNotificationScheduler: a01dbc48d0896687d8c91fd84ad42428479f69c0
+  LocalNotificationScheduler: dd98456cb5f16b02805b391ffed404d4f6aa67bd
 
 PODFILE CHECKSUM: 0beecbcf0a9ff8cf8684a277ad5b1a392013149a
 
