@@ -1,9 +1,7 @@
  //
  //  NotificationScheduler.swift
- //  DamInspection
  //
- //  Created by Harish Chopra on 2018-10-19.
- //  Copyright © 2018 BC Hydro. All rights reserved.
+ //  Created by Harish Chopra on 2018-12-01.
  //
  
  import Foundation
@@ -19,7 +17,7 @@
     public typealias NotificationActionCompletionHandler = (_ error: Error?) -> Void
     
     //MARK: Use shared to schedule notifications if you don't want to handle notification delegates. If you want to handle delegates then create an instance of this class to schedule notifications.
-    static var shared = NotificationScheduler()
+    public static var shared = NotificationScheduler()
     
     let notificationCenter = UNUserNotificationCenter.current()
     var authorizationOptions: UNAuthorizationOptions = [.alert, .sound, .badge]
@@ -39,7 +37,7 @@
         return count
     }
     
-    init(withDelegate delegate: UNUserNotificationCenterDelegate? = nil) {
+    public init(withDelegate delegate: UNUserNotificationCenterDelegate? = nil) {
         super.init()
         delegate == nil ? notificationCenter.delegate = self : ()
     }
